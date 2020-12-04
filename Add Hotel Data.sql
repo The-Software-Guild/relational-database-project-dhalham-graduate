@@ -137,3 +137,12 @@ INSERT INTO roomAppliance(roomId , applianceId)
               ('402', '1'),
               ('402', '2'),
               ('402', '4');
+
+DELETE FROM roomReservation
+WHERE reservationId = 8;
+
+DELETE FROM reservation
+WHERE reservationId = 8;
+
+DELETE FROM guest
+WHERE guestId = 8;
