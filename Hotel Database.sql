@@ -3,12 +3,11 @@ CREATE DATABASE softwareGuildHotel;
 USE softwareGuildHotel;
 
 CREATE TABLE roomType(
-roomTypeId INT,
+roomTypeId INT AUTO_INCREMENT,
 CONSTRAINT PK_roomType PRIMARY KEY (roomTypeId),
 roomType VARCHAR(10) NOT NULL,
 standardOccupancy INT NOT NULL,
 maximumOccupancy INT NOT NULL,
-gender VARCHAR(1),
 extraPerson DECIMAL(4.2) NOT NULL
 );
 
